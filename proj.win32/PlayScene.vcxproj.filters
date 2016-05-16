@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{f0d2872d-29b6-4dd0-a678-70fa1a131038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{d0d8783e-0356-41d6-abf0-65caa42e1e54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Attack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CharacterCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CharacterFly.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\constant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DamagedEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DBClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Die.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GraphicClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mesmerize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Move.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object_.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skill.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillApproach.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillDirect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillDirectSplash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillSplash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Structure.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StructureCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Target.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Unit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Poison.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Slow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stun.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map_.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginDB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RecordScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayScene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStarController.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Attack.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CharacterCommon.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CharacterFly.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\constant.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DamagedEffect.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DBClass.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Die.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameController.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GraphicClass.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interface.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mesmerize.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Move.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object_.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skill.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillApproach.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillBase.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillDirect.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillDirectSplash.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillSplash.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundClass.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Structure.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StructureCommon.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Target.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerCommon.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Unit.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Poison.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Slow.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stun.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map_.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginDB.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\State.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionLayer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RecordScene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\characterDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\mapDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\skillDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\structureDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\towerDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\soundData\soundDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\graphicData\graphicDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+    <Text Include="..\Resources\loginDB.txt">
+      <Filter>DB</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

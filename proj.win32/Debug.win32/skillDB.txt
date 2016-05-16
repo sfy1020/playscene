@@ -1,0 +1,22 @@
+DB_ID(key)							name			speed	range		move_frame		imgID		move_imgID		move_soundID	damagedEffectID		speed_control	wait_control	continue_damage		life_time
+2010001(DAMGED_EFFECT)				explode1		3		0			4				200003		200003			25				-1
+2010002(DAMGED_EFFECT)				icebreak1		3		0			6				200024		200024			0				-1
+2010003(DAMGED_EFFECT)				spark1			2		0			16				200011		200011			35				-1
+2010004(DAMGED_EFFECT)				spark2			3		0			4				200019		200019			35				-1
+2010005(DAMGED_EFFECT)				FlameExplosion	3		0			8				200027		200027			0				-1
+2010006(DAMGED_EFFECT)				HellFire		4		0			6				200044		200044			21				-1
+2010007(DAMGED_EFFECT)				arrowattack1	1		0			50				200062		200062			36				-1
+2020001(SKILL_BASE)					ice				2		0			3				200023		200023			0				2070001
+2020002(SKILL_BASE)					firearrow		1		0			4				200001		200001			0				2010001
+2020003(SKILL_BASE)					Poison			3		0			3				200028		200028			0				2080001
+2020004(SKILL_BASE)					Stun			2		0			2				200031		200031			0				2090001
+2020005(SKILL_BASE)					arrow1			1		0			1				200061		200061			0				2010007
+2030001(SKILL_DIRECT)				electricDirect	2		0			4				200063		200063			0				2010003
+2040001(SKILL_SPLASH)				FlameSplash		2		50			4				200026		200026			0				2010005
+2040002(SKILL_SPLASH)				HellFire		2		100			4				200042		200042			0				2010006
+2040003(SKILL_SPLASH)				FrozenArrow		2		100			4				200045		200045			0				2070001
+2050001(SKILL_DIRECTSPLASH)			lightening2		2		100			7				200021		200021			0				2010003
+2060001(SKILL_APPROACH)				blackhole		4		0			4				200064		200064			0				2010004
+2070001(SLOW)						Slow			6		0			5				200030		200030			31				-1					3				0				0					8
+2080001(POISON)						Poison			6		0			5				200029		200029			24				-1					0				0				20					8
+2090001(STUN)						Stun			4		0			5				200032		200032			0				-1					100				0				0					3
